@@ -10,35 +10,44 @@
     }
 
     section#login > div#imagem {
-        float: left;
+        float: left; /* coloca a imagem a esquerda */
         width: 30%;
         height: 100%;
     }
 
     section#login > div#formulario {
-        float: right;
+        float: right; /* coloca o formulario a direita */
         width: 70%;
     }
+    
 }
 
 @media screen and (min-width: 992px) {
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
-    
+
     section#login {
         width: 950px;
     }
 
     section#login > div#imagem {
-        float: left;
+        float: right; /* coloca a imagem a direita */
         width: 50%;
         height: 100%;
     }
 
     section#login > div#formulario {
-        float: right;
+        float: left; /* coloca o formulario a esquerda */
         width: 50%;
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1em;
     }
     
 }
