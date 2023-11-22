@@ -80,7 +80,7 @@ form div.campo input {
     background-color: #60cfcc;
     padding: 4px;
     border-radius: 8px;
-    border: 0px;
+    border: 1px solid var(--cor-lilas-fundo);
     font-size: 1em;
     width: calc(100% - 45px);
     height: 100%;
